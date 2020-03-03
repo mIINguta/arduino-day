@@ -1,8 +1,23 @@
 body 
 {
-	background-color: blue;
+		background-color: blue;
 }
 h1
 	{ 
-		color: red;
+		font-style: normal;
+		text-align: left;
+		font-family: Impact;
+
 	 }
+p {
+		font-style: initial;
+		text-align:left;
+		font-family: sans-serif;
+	}
+.footer {
+    position:absolute;
+    text-align: center;
+    bottom:0;
+    width:99%;
+    font-family: cursive;
+}
