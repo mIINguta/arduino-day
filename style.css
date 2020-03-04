@@ -1,6 +1,6 @@
-body 
-{
-		background-color: blue;
+body {
+ background-image: url("arduinoimage.jfif");
+ background-size: cover;
 }
 h1
 	{ 
