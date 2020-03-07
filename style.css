@@ -1,22 +1,28 @@
 body {
- background-image: url("arduinoimage.jfif");
- background-size: cover;
+	background-image: url("arduinoimage.jfif");
+	background-size:cover;
 }
 h1
 	{ 
 		font-style: normal;
+		color:black;
+		text-shadow:1px 1px yellow;
 		text-align: center;
 		font-family: Impact;
 		font-size: 50px;
 		height:200px;
 
 	 }
-.conteudo {
+#conteudo {
+		width:1000px;
+		position:absolute;
+		top:150px;
+		right:450px;
+		text-shadow:1px 1px yellow;
 		font-style: initial;
 		text-align:center;
 		font-family: sans-serif;
-		font-size:20px;
-		
+		font-size:30px;
 	}
 .footer {
     position:absolute;
