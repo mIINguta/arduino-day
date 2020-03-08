@@ -1,34 +1,112 @@
-body {
+body{
 	background-image: url("arduinoimage.jfif");
-	background-size:cover;
 }
-h1
-	{ 
-		font-style: normal;
+#site{
+  /* Definimos a largura da página */
+  width:1300px;
+  /* Definirmos a altura da página*/
+  height:600px;
+  /* Aqui definiremos a posição que a página ocupará na tela, nesse caso estamos definindo que fique centralizado na tela*/
+  /*top : posição de cima */
+  margin-top:0;
+  /* left: posição de esquerda*/
+  margin-left:auto;
+  /* bottom : posição de baixo */
+  margin-bottom:0;
+  /* right : posição de direita */
+  margin-right:auto;
+
+  background-image: url("arduinoimage.jfif");
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+
+h1{
 		color:black;
 		text-shadow:1px 1px yellow;
 		text-align: center;
 		font-family: Impact;
 		font-size: 50px;
-		height:200px;
+}
 
-	 }
-#conteudo {
-		width:1000px;
-		position:absolute;
-		top:150px;
-		right:450px;
+#cabeca{
+	/*Novamente definimos a largura da div*/
+  width:1300px;
+  /* altura da div */
+  height:50px;
+
+  background-color: transparent;
+}
+
+#conteudo{
+  /*Novamente definimos a largura da div*/
+  width:1300px;
+  /* altura da div */
+  height:500px;
+  /* Cor de fundo da div */
+  background-color:transparent;  
+} 
+
+#esquerda{
+  /*Novamente definimos a largura da div*/
+  width:650px;
+  /* altura da div */
+  height:500px;
+  /* O atributo Float é utilizado para fazermos o nosso bloco(div) 
+  literalmente flutue e se posicione onde queremos na página, 
+  quando escolhemos left, dizemos que esse bloco irá se posicionar na 
+  parte esquerda da página */
+  float:left;
+  /* Cor de fundo da div */
+  background-color:transparent;
+
 		text-shadow:1px 1px yellow;
 		font-style: initial;
 		text-align:center;
 		font-family: sans-serif;
 		font-size:30px;
-	}
-.footer {
-    position:absolute;
+}
+
+#direita{
+  /*Novamente definimos a largura da div*/
+  width:650px;
+  /* altura da div */
+  height:500px;
+  /* Pode parecer meio estranho usarmos o mesmo atributo left para o bloco 
+  em que queremos posicionar na direita, mas como sabemos, o CSS é um estilo 
+  em cascata, nossa div conteúdo definimos a largura de 1000px e na 
+  conteudo-left 500px, automaticamente ao definirmos o conteudo-right 
+  com 500px e à esquerda também, ele ficou à direita do conteudo-left, 
+  pois o máximo que a div filha poderá ter é 1000px, sendo 500+500=1000px */
+  float:left;
+  /* Cor de fundo da div */
+  background-color:transparent;
+
+      text-shadow:1px 1px yellow;
+    font-style: initial;
+    text-align:center;
+    font-family: sans-serif;
+    font-size:20px;
+
+}
+
+#rodape{
+  /*Novamente definimos a largura da div*/
+  width:1300px;
+  /* altura da div */
+  height:50px;
+  /* Cor de fundo da div */
+  background-color:transparent;
+
+
     text-align: center;
     bottom:0;
 	height:50;
     width:99%;
     font: normal 99% 'century gothic';
+
+   		text-shadow:1px 1px red;
+
 }
